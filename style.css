@@ -1,0 +1,285 @@
+body{
+  margin: 0;
+  font-family: Arial;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0 auto;
+  width: 1170px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-wrapper{
+  display: flex;
+  width: 190px;
+  align-items: center;
+}
+.logo-text{
+  text-transform: uppercase;
+}
+.logo-img{
+  width: 45px;
+  height: 45px;
+ 
+}
+.navigation{
+  display: flex;
+  width: 555px;
+  margin: 0 30px;
+  justify-content: space-between
+}
+.nav-item{
+  list-style: none;
+}
+.nav-list{
+  display: inline-block;
+  margin-right: 30px;
+}
+.nav-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:20px;
+  color: black;
+}
+/* sub-header */
+.sub-header{  
+  background-image: url('img/keybord.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;  
+}
+.sub-header-wrapper{
+  height: 100%;
+  width: 1170px;
+  margin: 0 auto;
+}
+.sub-header-title{
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: flex;
+  width: 1170px;
+  color: white;
+}
+
+/* main */
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+.content-date{
+  font-weight: bold;
+  color:blue;
+  margin-bottom: 0;
+  margin-top:0;
+}
+.content-date1{
+  font-weight: bold;
+  color:blue;
+  margin-bottom: 30px;
+  margin-top:0;
+}
+.content-date-bg{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.quote{
+  display: flex;
+  justify-content: center;
+}
+.content-date-text{
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+.link{
+  background-color: yellow;
+  display: flex;
+  align-items: flex-end;
+}
+.content-date-link{
+  background-color: red;
+}
+.content-img{
+  width: 750px;
+  height: 450px;
+  margin: 0 0 20px 0;
+}
+.content-img1{
+  background-image: url('./img/bluetxt.png');
+  height: 285px;
+  margin: 0 0 20px 0; 
+}
+.content-img2{
+  background-image: url('./img/bluetxt2.png');
+  height: 200px;
+  margin: 0 0 20px 0;
+}
+.text1{
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.spn-txt{
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+}
+.content-title{
+  text-decoration: none;
+  color: black;
+}
+.content-text{
+  width: 750px;
+  margin-bottom: 95px;
+}
+.contents-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+/* second side */
+/* search */
+
+.aside-search{
+  background-color: #ededed;
+  width: 360px;
+  height: 120px;
+}
+.aside-search-title{
+}
+.aside-search-input{
+  width: 320px;
+  height: 45px;
+}
+.aside-block-title{ 
+  border-bottom: 2px solid blue;
+  width: 110px;
+  padding-bottom: 15px;
+}
+
+/* pupulars */
+
+.aside-populars-item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+}
+.aside-populars-list{
+  list-style: none;
+  margin: 0 20px 20px 0;
+}
+.aside-populars-link{
+  text-decoration: none;
+  background-color: #ededed;
+  color: black;
+  padding: 10px;
+}
+
+/* recent post */
+.aside-post-list{
+  list-style: none;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 25px; 
+}
+.aside-post-link{
+  text-decoration: none;
+  color:black;
+}
+.aside-post-title{
+
+}
+.post{
+  width: 380px;
+  height: 85px;
+  display: flex;
+  justify-content: flex-start;
+}
+.post-text{
+  margin-left: 20px;
+}
+
+/* categories */
+
+.aside-categories-list{
+  width: 360px;
+  list-style: none;
+  border-bottom: 1px solid #d2d2d4;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.aside-categories-link{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+.greater{
+  font-size: 10px;
+  color: blue;
+  margin-right: 10px;
+}
+
+/* last section */
+.block-form{
+  display: flex;
+  justify-content: center;
+}
+.last-section{
+  width: 1800px;
+  height: 730px;
+  background-color: #0055a6;
+}
+.l-s-inp-block{
+  display: flex;
+  justify-content: center;
+}
+.last-section-container{
+  width: 950px;
+}
+.last-section-block-text{
+  display: flex;
+  justify-content: center;
+}
+.last-section-text{
+  display: flex;
+  justify-content: center;
+  width: 1150px;
+  height: 110px;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+.l-s-input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;   
+}
+.sect-inp{
+  width: 460px;
+  height: 45px;
+}
+.sect-input-msg{
+  width: 930px;
+  height: 120px;
+}
+.l-s-btn{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.btn-input{
+  width: 160px;
+  height: 50px;
+}
